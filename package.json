@@ -1,0 +1,13 @@
+{
+  "name": "expense-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx babel app.jsx --out-file app.js --presets=@babel/preset-env,@babel/preset-react"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.10"
+  }
+}
